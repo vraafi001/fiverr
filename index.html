@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GlowUp Studio (Vixor) - Beauty Salon South Jakarta</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .gradient-bg {
+            background: linear-gradient(135deg, #fdf2f8 0%, #fce7f3 50%, #f3e8ff 100%);
+        }
+        .hover-scale {
+            transition: transform 0.3s ease;
+        }
+        .hover-scale:hover {
+            transform: scale(1.05);
+        }
+        .shadow-soft {
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body class="font-sans text-gray-800">
+    
+    <!-- Hero Section -->
+    <section class="gradient-bg min-h-screen flex items-center justify-center relative overflow-hidden">
+        <div class="absolute inset-0 bg-white bg-opacity-20"></div>
+        <div class="container mx-auto px-6 text-center relative z-10">
+            <!-- Logo Dummy -->
+            <div class="mb-8">
+                <div class="w-24 h-24 mx-auto bg-pink-200 rounded-full flex items-center justify-center shadow-soft">
+                    <i class="fas fa-spa text-pink-600 text-3xl"></i>
+                </div>
+            </div>
+            
+            <!-- Nama Bisnis -->
+            <h1 class="text-5xl md:text-7xl font-bold text-pink-800 mb-4 tracking-tight">
+                GlowUp Studio (Vixor)
+            
+            <!-- Tagline -->
+            <p class="text-xl md:text-2xl text-pink-700 mb-8 font-light">
+                Shine Bright Every Day
+            </p>
+            
+            <!-- CTA Button -->
+            <button class="bg-pink-600 hover:bg-pink-700 text-white font-semibold py-4 px-8 rounded-full text-lg transition duration-300 shadow-soft hover-scale">
+                <i class="fas fa-calendar-alt mr-2"></i>
+                Book Now
+            </button>
+            
+            <!-- Decorative Elements -->
+            <div class="absolute top-20 left-10 w-20 h-20 bg-pink-200 rounded-full opacity-50"></div>
+            <div class="absolute bottom-20 right-10 w-16 h-16 bg-purple-200 rounded-full opacity-50"></div>
+            <div class="absolute top-1/2 right-20 w-12 h-12 bg-pink-300 rounded-full opacity-30"></div>
+        </div>
+    </section>
+
+    <!-- Tentang Kami Section -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="max-w-4xl mx-auto text-center">
+                <h2 class="text-4xl font-bold text-gray-800 mb-8">About Us</h2>
+                <div class="w-24 h-1 bg-pink-500 mx-auto mb-8"></div>
+                
+                <p class="text-lg text-gray-600 mb-8 leading-relaxed">
+                    GlowUp Studio is a premium beauty salon located in South Jakarta. We are committed to providing the best service using high-quality products and cutting-edge technology in the beauty industry.
+                </p>
+                
+                <div class="grid md:grid-cols-2 gap-8 mt-12">
+                    <div class="bg-pink-50 p-8 rounded-lg shadow-soft">
+                        <h3 class="text-2xl font-semibold text-pink-800 mb-4">Our Vision</h3>
+                        <p class="text-gray-600">
+                            To be the leading beauty salon that provides the best beauty transformation experience for every client with international standards.
+                        </p>
+                    </div>
+                    <div class="bg-purple-50 p-8 rounded-lg shadow-soft">
+                        <h3 class="text-2xl font-semibold text-purple-800 mb-4">Our Mission</h3>
+                        <p class="text-gray-600">
+                            To provide professional beauty services with modern technology, quality products, and an experienced team for client satisfaction.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Layanan Kami Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-800 mb-8">Our Services</h2>
+                <div class="w-24 h-1 bg-pink-500 mx-auto mb-8"></div>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+                    We provide a variety of professional beauty services to meet your needs
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Cuci Blow -->
+                <div class="bg-white p-8 rounded-lg shadow-soft text-center hover-scale">
+                    <div class="w-16 h-16 bg-pink-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-wind text-pink-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-4">Wash & Blow</h3>
+                    <p class="text-gray-600 mb-4">
+                        Complete hair treatment with premium shampoo and professional blow dry for perfect results.
+                    </p>
+                    <div class="text-pink-600 font-semibold">Starting from Rp 75.000</div>
+                </div>
+                
+                <!-- Facial -->
+                <div class="bg-white p-8 rounded-lg shadow-soft text-center hover-scale">
+                    <div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-leaf text-purple-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-4">Facial</h3>
+                    <p class="text-gray-600 mb-4">
+                        In-depth facial treatment with organic products for healthy and radiant skin.
+                    </p>
+                    <div class="text-pink-600 font-semibold">Starting from Rp 150.000</div>
+                </div>
+                
+                <!-- Manicure -->
+                <div class="bg-white p-8 rounded-lg shadow-soft text-center hover-scale">
+                    <div class="w-16 h-16 bg-pink-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-hand-sparkles text-pink-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-4">Manicure</h3>
+                    <p class="text-gray-600 mb-4">
+                        Complete hand nail care with exclusive nail art according to your wishes.
+                    </p>
+                    <div class="text-pink-600 font-semibold">Starting from Rp 100.000</div>
+                </div>
+                
+                <!-- Hair Coloring -->
+                <div class="bg-white p-8 rounded-lg shadow-soft text-center hover-scale">
+                    <div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-palette text-purple-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-4">Hair Coloring</h3>
+                    <p class="text-gray-600 mb-4">
+                        Professional hair coloring with high-quality products and long-lasting results.
+                    </p>
+                    <div class="text-pink-600 font-semibold">Starting from Rp 300.000</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galeri Section -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-800 mb-8">Gallery</h2>
+                <div class="w-24 h-1 bg-pink-500 mx-auto mb-8"></div>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+                    See our best work and the comfortable salon atmosphere
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="relative overflow-hidden rounded-lg shadow-soft hover-scale">
+                    <img src="https://via.placeholder.com/300x300/fdf2f8/ec4899?text=Salon+Interior" alt="Salon Interior" class="w-full h-64 object-cover">
+                    <div class="absolute inset-0 bg-pink-600 bg-opacity-0 hover:bg-opacity-20 transition duration-300"></div>
+                </div>
+                <div class="relative overflow-hidden rounded-lg shadow-soft hover-scale">
+                    <img src="https://via.placeholder.com/300x300/f3e8ff/a855f7?text=Hair+Styling" alt="Hair Styling" class="w-full h-64 object-cover">
+                    <div class="absolute inset-0 bg-purple-600 bg-opacity-0 hover:bg-opacity-20 transition duration-300"></div>
+                </div>
+                <div class="relative overflow-hidden rounded-lg shadow-soft hover-scale">
+                    <img src="https://via.placeholder.com/300x300/fdf2f8/ec4899?text=Facial+Treatment" alt="Facial Treatment" class="w-full h-64 object-cover">
+                    <div class="absolute inset-0 bg-pink-600 bg-opacity-0 hover:bg-opacity-20 transition duration-300"></div>
+                </div>
+                <div class="relative overflow-hidden rounded-lg shadow-soft hover-scale">
+                    <img src="https://via.placeholder.com/300x300/f3e8ff/a855f7?text=Nail+Art" alt="Nail Art" class="w-full h-64 object-cover">
+                    <div class="absolute inset-0 bg-purple-600 bg-opacity-0 hover:bg-opacity-20 transition duration-300"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimoni Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-800 mb-8">Client Testimonials</h2>
+                <div class="w-24 h-1 bg-pink-500 mx-auto mb-8"></div>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+                    Hear about the amazing experiences of our clients
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <div class="bg-white p-8 rounded-lg shadow-soft">
+                    <div class="flex items-center mb-6">
+                        <img src="https://via.placeholder.com/60x60/fdf2f8/ec4899?text=SA" alt="Sarah" class="w-15 h-15 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-semibold text-gray-800">Sarah Amelia</h4>
+                            <p class="text-gray-600 text-sm">Marketing Executive</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic mb-4">
+                        "The service at GlowUp Studio is truly amazing! The team is professional and the results are always satisfying. I have been a loyal customer for 2 years."
+                    </p>
+                    <div class="flex text-yellow-400">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                
+                <div class="bg-white p-8 rounded-lg shadow-soft">
+                    <div class="flex items-center mb-6">
+                        <img src="https://via.placeholder.com/60x60/f3e8ff/a855f7?text=DR" alt="Diana" class="w-15 h-15 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-semibold text-gray-800">Diana Rahmawati</h4>
+                            <p class="text-gray-600 text-sm">Content Creator</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic mb-4">
+                        "The salon atmosphere is comfortable and clean, plus the results always meet expectations. Facial here makes my skin glowing and healthy. Highly recommended!"
+                    </p>
+                    <div class="flex text-yellow-400">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Jam Operasional & Alamat Section -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-800 mb-8">Salon Information</h2>
+                <div class="w-24 h-1 bg-pink-500 mx-auto"></div>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-12 max-w-4xl mx-auto">
+                <!-- Jam Operasional -->
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-pink-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-clock text-pink-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-6">Operational Hours</h3>
+                    <div class="space-y-3 text-gray-600">
+                        <div class="flex justify-between">
+                            <span>Monday - Friday</span>
+                            <span class="font-semibold">09:00 - 21:00</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span>Saturday</span>
+                            <span class="font-semibold">08:00 - 22:00</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span>Sunday</span>
+                            <span class="font-semibold">10:00 - 20:00</span>
+                        </div>
+                        <div class="flex justify-between text-red-600">
+                            <span>National Holiday</span>
+                            <span class="font-semibold">Closed</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Alamat -->
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-map-marker-alt text-purple-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-6">Our Location</h3>
+                    <div class="text-gray-600 space-y-3">
+                        <p class="font-semibold">GlowUp Studio</p>
+                        <p>Jl. Kemang Raya No. XX<br>Kemang, Jakarta Selatan 12560</p>
+                        <p>DKI Jakarta, Indonesia</p>
+                        <div class="mt-6">
+                            <button class="bg-purple-600 hover:bg-purple-700 text-white px-6 py-2 rounded-full transition duration-300">
+                                <i class="fas fa-directions mr-2"></i>
+                                View on Maps
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Form Kontak Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-800 mb-8">Contact Us</h2>
+                <div class="w-24 h-1 bg-pink-500 mx-auto mb-8"></div>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+                    Have questions or want to make an appointment? Send us a message
+                </p>
+            </div>
+            
+            <div class="max-w-2xl mx-auto">
+                <form class="bg-white p-8 rounded-lg shadow-soft">
+                    <div class="grid md:grid-cols-2 gap-6 mb-6">
+                        <div>
+                            <label for="nama" class="block text-gray-700 font-semibold mb-2">Full Name</label>
+                            <input type="text" id="nama" name="nama" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-pink-500 transition duration-300" placeholder="Enter your full name">
+                        </div>
+                        <div>
+                            <label for="email" class="block text-gray-700 font-semibold mb-2">Email</label>
+                            <input type="email" id="email" name="email" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-pink-500 transition duration-300" placeholder="name@example.com">
+                        </div>
+                    </div>
+                    <div class="mb-6">
+                        <label for="pesan" class="block text-gray-700 font-semibold mb-2">Message</label>
+                        <textarea id="pesan" name="pesan" rows="5" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-pink-500 transition duration-300" placeholder="Write your message or question here..."></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="bg-pink-600 hover:bg-pink-700 text-white font-semibold py-3 px-8 rounded-lg transition duration-300 shadow-soft hover-scale">
+                            <i class="fas fa-paper-plane mr-2"></i>
+                            Send Message
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Informasi Kontak -->
+                <div>
+                    <h3 class="text-xl font-semibold mb-6">Contact Us</h3>
+                    <div class="space-y-3">
+                        <div class="flex items-center">
+                            <i class="fas fa-phone text-pink-400 mr-3"></i>
+                            <span>+1 XXX-XXXX-XXXX</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-envelope text-pink-400 mr-3"></i>
+                            <span>info@xxxxxx.com</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-map-marker-alt text-pink-400 mr-3"></i>
+                            <span>Kemang, Jakarta Selatan</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Media Sosial -->
+                <div>
+                    <h3 class="text-xl font-semibold mb-6">Follow Us</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="w-10 h-10 bg-pink-600 rounded-full flex items-center justify-center hover:bg-pink-700 transition duration-300">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-pink-600 rounded-full flex items-center justify-center hover:bg-pink-700 transition duration-300">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-pink-600 rounded-full flex items-center justify-center hover:bg-pink-700 transition duration-300">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-pink-600 rounded-full flex items-center justify-center hover:bg-pink-700 transition duration-300">
+                            <i class="fab fa-tiktok"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Logo dan Tagline -->
+                <div>
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-pink-600 rounded-full flex items-center justify-center mr-3">
+                            <i class="fas fa-spa text-white text-xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold">GlowUp Studio (Vixor)</h3>
+                            <p class="text-gray-400 text-sm">Tampil Cantik Setiap Hari</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Copyright -->
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center">
+                <p class="text-gray-400">
+                    &copy; 2024 GlowUp Studio. All rights reserved. | 
+                    <span class="text-pink-400">Website created for portfolio purposes</span>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
+
